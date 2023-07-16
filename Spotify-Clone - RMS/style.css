@@ -1,0 +1,188 @@
+*{
+    padding:0;
+   margin:0;
+}
+body{
+    background-color:#262626;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin:auto;
+    width:1080px;
+    height:auto;
+}
+.head-title h1{
+    color:#1db954;
+    text-align:center;
+}
+
+
+.main-container{
+    margin-top:48px;
+    display:flex;
+    width:1080px;
+    height:640px;
+
+}
+.song-container{
+   
+    margin-left:16px;
+    margin-right:16px;
+    width:50%;
+    height:100%;
+    background-color:#0d0d0d;
+    border-radius:6px;
+}
+.mostplayer-container{
+   
+    margin-left:16px;
+    margin-right:16px;
+    width:25%;
+    height:100%;
+    background-color:#0d0d0d;
+    border-radius:6px;
+}
+
+.playlist-container{
+    
+    margin-left:16px;
+    margin-right:16px;
+    width:25%;
+    height:100%;
+    background-color:#0d0d0d;
+    border-radius:6px;
+}
+.song-content{
+    padding:18px 20px;
+    width:100%;
+    height:100%;
+    border-radius:6px;
+    
+}
+.song-content h2{
+    color:white;
+    margin-bottom:16px;
+}
+.search-bar{
+    
+    background-color:#666666;
+    display:inline;
+    padding:3px 16px;
+    color:#cccccc;
+    border:1px solid white;
+    border-radius:20px;
+}
+.search-bar svg{
+    width:12px;
+    height:12px;
+    margin-right:10px;
+}
+.song-pic{
+    position: relative;
+}
+.song-pic img{
+    width:120px;
+    height:120px;
+    
+    
+}
+.song-pic svg{
+    position: absolute;
+    display:block;
+    top:78%;
+    left:60%;
+}
+.title-artist{
+    color:white;
+}
+
+.title-artist h4{
+    font-size:12px;
+}
+.title-artist p{
+    font-size:8px;
+    color:#d9d9d9;
+}
+.song-grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-top:24px;
+    row-gap:16px;
+}
+.mostplayed-content{
+    padding:18px 20px;
+}
+
+.mostplayed-content h2{
+    color:white;
+}
+.playlist-content{
+    padding:18px 20px;
+}
+.playlist-content h2{
+    color:white;
+    margin-bottom:24px;
+}
+.mostplayed-song{
+    color:white;
+    display:flex;
+    margin-top:16px;
+    position:relative;
+   
+
+    
+}
+.mostplayed-song img{
+    width:42px;
+    height:42px;
+    margin-right:10px;
+}
+.mostplayed-song h3{
+    margin-right:14px;
+    margin-top:6px;
+}
+.mostplayed-song svg{
+    
+    margin-top:8px;
+    position:absolute;
+    right:0;
+}
+
+.title h4{
+    font-size:12px
+}
+
+.title p{
+    font-size:10px
+}
+
+.playlist-item{
+    color:white;
+    display:flex;
+    margin-top:16px;
+    position:relative;
+   
+
+    
+}
+.playlist-item img{
+    width:42px;
+    height:42px;
+    margin-right:10px;
+}
+
+.playlist-item svg{
+    
+    margin-top:8px;
+    position:absolute;
+    right:0;
+}
+
+.title h4{
+    font-size:12px
+}
+
+.title p{
+    font-size:10px
+}
